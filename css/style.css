@@ -61,4 +61,12 @@ display: flex;
 gap: var(--spacing-md);
 
 }
+.hdrmenu a {
+    font-weight: 700;
+    transition: color 0.45s;
+
+    &:hover {
+        color: var(--color-orange);
+    }
+}
 
